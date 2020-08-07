@@ -1,8 +1,18 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AGEA,OAAO,CAAC,0FAAI,CFFZ,AAAA,CAAC,CACD,CAAC,AAAA,QAAQ,CACT,CAAC,AAAA,OAAO,AAAC,CACP,UAAU,CAAE,UAAU,CACvB,AAED,AAAA,IAAI,AAAC,CACH,OAAO,CAAE,CAAC,CACV,MAAM,CAAE,CAAC,CACV,AAED,AAAA,GAAG,AAAC,CACF,SAAS,CAAE,IAAI,CAChB,AAED,AAAA,UAAU,AAAC,CAET,KAAK,CAAE,GAAG,CACV,MAAM,CAAE,MAAM,CAGd,QAAQ,CAAE,QAAQ,CACnB,AAED,AAAA,IAAI,AAAC,CACH,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,aAAa,CAC/B,AO3BD,AAAA,cAAc,AAAC,CACb,gBAAgB,CAAE,8CAA8C,CAChE,iBAAiB,CAAE,SAAS,CAC5B,eAAe,CAAE,KAAK,CACvB",
     "sources": [
-        "../../scss/main.scss"
+        "../../scss/main.scss",
+        "../../scss/_presets.scss",
+        "../../scss/_variables.scss",
+        "../../scss/_typography.scss",
+        "../../scss/_about.scss",
+        "../../scss/_contact.scss",
+        "../../scss/_products.scss",
+        "../../scss/_header.scss",
+        "../../scss/_hero.scss",
+        "../../scss/_news.scss",
+        "../../scss/_footer.scss"
     ],
     "names": [],
     "file": "main.min.css"
