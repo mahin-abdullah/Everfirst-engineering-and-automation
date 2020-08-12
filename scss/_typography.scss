@@ -6,3 +6,18 @@
 
 $font-heading: "Raleway", sans-serif;
 $font-primary: "Rubik", sans-serif;
+
+// Font selections //
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-heading;
+}
+
+p {
+  font-family: $font-primary;
+}
