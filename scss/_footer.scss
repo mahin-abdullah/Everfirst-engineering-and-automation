@@ -1,6 +1,6 @@
 footer {
-  padding: 2rem 0 0 0;
-  margin: 6em 0 0 0;
+  padding: 4.5rem 0 0 0;
+  margin: 7em 0 0 0;
   background: #efefef;
 
   .footer__logo img {
@@ -9,5 +9,126 @@ footer {
 
   .footer__logo {
     text-align: center;
+  }
+
+  .footer__col h3 {
+    font-size: 1.7em;
+    text-align: center;
+    margin: 0.5em 0 0 0;
+  }
+
+  .footer__col .footer--tagline {
+    text-align: center;
+    font-size: 0.95em;
+    opacity: 65%;
+  }
+
+  .footer--heading {
+    margin: 3em 0 1.1em 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.4em;
+  }
+
+  .footer__list {
+    padding: 0;
+    margin: 1em 0;
+    list-style: none;
+    font-family: $font-heading;
+  }
+
+  .footer__list li {
+    text-align: center;
+    margin: 0.6em 0;
+    text-transform: uppercase;
+  }
+
+  .footer__link {
+    text-decoration: none;
+    color: black;
+    opacity: 65%;
+    transition: all 220ms ease-in-out;
+  }
+
+  .footer__link:hover,
+  .footer__link:focus {
+    color: $orange;
+    letter-spacing: 1.3px;
+    opacity: 100%;
+  }
+
+  .footer__col h4 {
+    margin: 3em 0 1.1em 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.4em;
+  }
+
+  .footer--content {
+    text-align: center;
+    line-height: 1.7em;
+  }
+
+  .footer__list--contact {
+    font-family: $font-primary;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+  }
+
+  .footer__list--contact li {
+    margin: 0.45em 0;
+  }
+
+  .social__icons {
+    font-family: $font-primary;
+    list-style: none;
+    text-align: center;
+    margin: 0.8em 0 0 0;
+  }
+
+  .footer__icon {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    opacity: 65%;
+    margin: 0 0 0 0.5em;
+    transition: all 240ms ease-in-out;
+  }
+
+  .footer__icon:hover,
+  .footer__icon:focus {
+    color: $orange;
+    letter-spacing: 1.3px;
+    opacity: 100%;
+  }
+
+  .footer__col:nth-child(4) {
+    margin: 0 0 4em 0;
+  }
+
+  .attribution {
+    background: #000;
+    margin: 0 auto -2em auto;
+  }
+  .attribution--content {
+    width: 90%;
+    margin: 0 auto -2em auto;
+    padding: 0.8em 0;
+  }
+  .attribution p {
+    color: #e5e5e5;
+    margin: 0;
+    text-align: center;
+    font-size: 0.9em;
+  }
+
+  .attribution p:nth-child(2) {
+    margin: 0.3em 0 0 0;
+  }
+
+  .attribution-link {
+    text-decoration: none;
+    color: grey;
   }
 }
