@@ -1,0 +1,53 @@
+.services__intro {
+  text-align: center;
+  margin: 0 0 3em 0;
+  padding: 2em 0 0 0;
+}
+
+.services__intro h2 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.card {
+  margin: 3em auto 3em auto;
+  background: $orange-gradient;
+  width: 95%;
+  filter: drop-shadow(1px 9px 15px dimgray);
+}
+
+.card h5 {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 1em;
+}
+
+.card p {
+  text-align: center;
+  margin: 1em;
+  padding: 0 0 1.8em 0;
+  line-height: 1.6em;
+}
+
+// Mission Section //
+
+.mission {
+  margin: 4em 0 0 0;
+
+  .mission__content h2 {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 3em 0 1.5em 0;
+  }
+
+  .mission__content p {
+    line-height: 1.5;
+  }
+
+  .mission__content--two {
+    margin: 0 0 4.5em 0;
+  }
+}
