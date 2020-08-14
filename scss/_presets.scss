@@ -23,7 +23,16 @@ img {
   position: relative;
 }
 
-.row {
-  display: flex;
-  justify-content: space-between;
+@media (min-width: 992px) {
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1100px) {
+  .row--footer {
+    display: flex;
+    justify-content: space-between;
+  }
 }

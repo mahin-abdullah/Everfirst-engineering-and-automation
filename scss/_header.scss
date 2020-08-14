@@ -1,5 +1,5 @@
 header {
-  font-family: $font-heading;
+  font-family: $font-primary;
   text-align: center;
   position: fixed;
   width: 100%;
@@ -181,5 +181,14 @@ body {
 @media (min-width: 1300px) {
   header .nav__list {
     width: 49%;
+  }
+  nav {
+    margin: 0.8em 0;
+  }
+}
+
+@media (min-width: 1550px) {
+  .nav__item {
+    font-size: 18px;
   }
 }
