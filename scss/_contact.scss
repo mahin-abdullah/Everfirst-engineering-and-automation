@@ -1,0 +1,58 @@
+.contact-us {
+  margin: 8em 0 0 0;
+}
+
+.contact-us h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 2em 0;
+}
+
+.contact-content {
+  font-family: $font-primary;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.contact-content li {
+  margin: 1em 0;
+  text-align: start;
+}
+
+.contact__img {
+  margin: 5em 0 0 0;
+}
+
+@media (min-width: 860px) {
+  .contact__img {
+    width: 80%;
+    margin: 7em auto 0 auto;
+  }
+}
+
+@media (min-width: 1100px) {
+  .contact-us {
+    margin: 12em 0 10em 0;
+  }
+
+  .contact-us h2 {
+    margin: 0 0 5em 0;
+    font-size: 32px;
+  }
+
+  .contact-content {
+    width: 45%;
+  }
+
+  .contact-content li {
+    margin: 0 0 1em;
+    text-align: start;
+    font-size: 20px;
+  }
+
+  .contact__img {
+    width: 45%;
+    margin: 0 auto 0 auto;
+  }
+}

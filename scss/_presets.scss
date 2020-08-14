@@ -31,7 +31,8 @@ img {
 }
 
 @media (min-width: 1100px) {
-  .row--footer {
+  .row--footer,
+  .row--contact {
     display: flex;
     justify-content: space-between;
   }
