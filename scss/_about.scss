@@ -1,0 +1,154 @@
+.about__us {
+  margin: 8em 0 0 0;
+}
+
+.about-company--content h2,
+.what-we-do--title h2,
+.more-about-clients h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 2em 0;
+}
+
+.about-company--content p,
+.what-we-do--content--one,
+.about__list li,
+.what-we-do-content__list li,
+.more-about-clients--list li {
+  opacity: 65%;
+  line-height: 1.6;
+}
+
+.what-we-do {
+  margin: 4em 0 0 0;
+}
+
+.about__list li,
+.what-we-do-content__list li {
+  font-family: $font-primary;
+  list-style: disclosure-closed;
+  font-size: 16px;
+  margin: 0.5em 0;
+}
+
+.what-we-do-content--two--title {
+  font-size: 20px;
+  margin: 2em 0 1em 0;
+  opacity: 65%;
+}
+
+.what-we-do--img--content {
+  font-style: italic;
+  font-size: 15px;
+  opacity: 65%;
+}
+
+.more-about-clients {
+  margin: 5.5em 0;
+}
+
+.more-about-clients ul {
+  padding: 0;
+  margin: 0 0 3em 0;
+}
+
+.more-about-clients--list h6 {
+  margin: 0.5em 0 1.5em 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.more-about-clients--list li {
+  font-family: $font-primary;
+  list-style-type: disclosure-closed;
+  margin: 0.5em 0 0.5em 40px;
+}
+
+// Media Queries
+@media (min-width: 1100px) {
+  .about__us {
+    margin: 12em 0 0 0;
+  }
+  .about-company--content {
+    width: 52%;
+  }
+
+  .about-company--content h2 {
+    font-size: 30px;
+  }
+
+  .about-company--content p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin: 0 0 3em 0;
+  }
+
+  .about-company--img {
+    width: 40%;
+  }
+
+  // What we do
+
+  .what-we-do {
+    margin: 1em 0 0 0;
+  }
+
+  .what-we-do--title h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    margin: 0 0 5em 0;
+  }
+
+  .what-we-do--content {
+    width: 52%;
+  }
+
+  .what-we-do--content--one {
+    margin: 0 0 0.5em 0;
+  }
+
+  .what-we-do--content--one,
+  .about__list li {
+    font-size: 20px;
+    line-height: 1.8;
+  }
+
+  .what-we-do-content--two--title {
+    font-size: 22px;
+  }
+
+  .what-we-do-content__list {
+    margin: 0 0 3em 0;
+  }
+
+  .what-we-do--img {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex--order--about {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+  }
+
+  .what-we-do--img--content {
+    margin: 2em 0 0 0;
+  }
+
+  //Clients
+
+  .more-about-clients h2 {
+    margin: -3em 0 5em 0;
+    font-size: 32px;
+  }
+
+  .flexbox__one {
+    width: 45%;
+  }
+
+  .flexbox__two {
+    width: 45%;
+  }
+}
