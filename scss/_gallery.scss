@@ -5,6 +5,19 @@
   column-gap: 12px;
 }
 
+.grid {
+  margin: 7em 0;
+
+  .grid-title {
+    margin: 0 0 2.5em 0;
+    text-align: center;
+  }
+
+  .grid-title h2 {
+    text-transform: uppercase;
+  }
+}
+
 @media (min-width: 550px) {
   .container-grid {
     row-gap: 25px;
@@ -19,6 +32,26 @@
 }
 
 @media (min-width: 1150px) {
+  .grid {
+    margin: 12em 0 10em 0;
+
+    .grid-title {
+      margin: 0 0 5.5em 0;
+    }
+
+    .grid-title h2 {
+      font-size: 32px;
+    }
+  }
+
+  .item {
+    transition: transform 350ms ease-in-out;
+  }
+
+  .item:hover {
+    transform: scale(1.1);
+  }
+
   .container-grid {
     width: 70%;
     row-gap: 35px;

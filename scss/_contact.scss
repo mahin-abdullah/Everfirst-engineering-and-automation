@@ -54,5 +54,10 @@
   .contact__img {
     width: 45%;
     margin: 0 auto 0 auto;
+    transition: transform 350ms ease-in-out;
+  }
+
+  .contact__img:hover {
+    transform: scale(1.33);
   }
 }
