@@ -57,3 +57,31 @@
     color: #fff;
   }
 }
+
+@media (min-width: 1100px) {
+  .flex--order--hero {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+  }
+
+  .hero {
+    margin: 8em 0 0 0;
+  }
+
+  .hero__img {
+    margin: 0;
+    padding: 0;
+    width: 40%;
+  }
+
+  .hero__wrapper {
+    background: url(/dist/images/bg-intro-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .hero__content {
+    width: 52%;
+  }
+}
