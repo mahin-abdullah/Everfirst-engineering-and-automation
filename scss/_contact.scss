@@ -32,12 +32,17 @@
   transform: scale(1.1);
 }
 
+/*
+
 @media (min-width: 860px) {
+  
   .contact__img {
     width: 80%;
     margin: 7em auto 0 auto;
   }
 }
+
+*/
 
 @media (min-width: 1100px) {
   .contact-us {
@@ -59,6 +64,8 @@
     font-size: 20px;
   }
 
+  /*
+
   .contact__img {
     width: 45%;
     margin: 0 auto 0 auto;
@@ -68,4 +75,6 @@
   .contact__img:hover {
     transform: scale(1.33);
   }
+
+  */
 }
