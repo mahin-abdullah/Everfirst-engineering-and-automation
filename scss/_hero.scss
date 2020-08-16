@@ -9,16 +9,21 @@
     font-size: 2.3em;
     font-family: $font-heading;
     text-align: center;
-    margin: 0;
+    margin: 1.8em 0 0 0;
     letter-spacing: 0.5px;
   }
 
   .hero__content p {
     padding: 0;
-    margin: 1em 0 0 0;
+    margin: 0.5em 0 0 0;
     font-size: 1.2em;
     text-align: center;
     color: dimgray;
+  }
+
+  .hero__img {
+    margin: 3em 0 0 0;
+    padding: 5em 0 8.5em 0;
   }
 }
 
