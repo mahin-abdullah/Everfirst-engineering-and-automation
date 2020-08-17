@@ -38,4 +38,12 @@ img {
     display: flex;
     justify-content: space-between;
   }
+
+  .container__hero {
+    width: 100%;
+    margin: 0 auto;
+
+    /* added for nav-toggle positioning */
+    position: relative;
+  }
 }

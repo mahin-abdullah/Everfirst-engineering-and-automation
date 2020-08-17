@@ -17,22 +17,33 @@
     margin: 11em auto 0 auto;
     width: 75%;
   }
-}
 
-// Mission Section
-.mission {
-  margin: 7em 0 0 0;
-}
+  .clients__title h2 {
+    font-size: 32px;
+  }
 
-.mission__img {
-  width: 40%;
-}
+  // Mission Section
+  .mission {
+    margin: 7em 0 0 0;
+  }
 
-.mission__content {
-  width: 52%;
-  margin: 0;
-}
+  .mission__img {
+    width: 40%;
+  }
 
-.mission .mission__content h2 {
-  margin: 0 0 2em 0;
+  .mission__content {
+    width: 52%;
+    margin: 0;
+  }
+
+  .mission .mission__content h2 {
+    margin: 0 0 2em 0;
+    font-size: 32px;
+  }
+
+  .mission .mission__content p {
+    font-size: 20px;
+    line-height: 1.8;
+    opacity: 65%;
+  }
 }
