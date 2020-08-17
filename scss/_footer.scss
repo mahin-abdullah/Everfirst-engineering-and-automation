@@ -106,6 +106,12 @@ footer {
     opacity: 100%;
   }
 
+  .fa-lg:hover,
+  .fa-lg:focus {
+    color: #2c45e8;
+    transform: scale(1.05);
+  }
+
   .footer__col:nth-child(4) {
     margin: 0 0 4em 0;
   }

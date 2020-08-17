@@ -24,6 +24,17 @@ img {
   position: relative;
 }
 
+@media (min-width: 590px) {
+  .grid--card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "one two"
+      "three";
+  }
+}
+
 @media (min-width: 992px) {
   .row {
     display: flex;
