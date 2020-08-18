@@ -17,6 +17,10 @@ nav {
   padding: 0;
 }
 
+.logo--title {
+  display: none;
+}
+
 .logo img {
   width: 11%;
 }
@@ -131,6 +135,10 @@ body {
     display: flex;
   }
 
+  .logo--title {
+    display: none;
+  }
+
   header .logo img {
     width: 15%;
   }
@@ -190,5 +198,15 @@ body {
 @media (min-width: 1550px) {
   .nav__item {
     font-size: 18px;
+  }
+
+  .logo--title {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    margin: 0 0 0 -6em;
+    text-transform: uppercase;
+    color: $orange;
+    letter-spacing: 1px;
   }
 }
